@@ -2,7 +2,7 @@ draw_set_font(Font1);
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_text(16, 16, "Speed: " + string(global.speed_level) + "/" + string(global.win_speed_level) + "                         Press 'R' to restart");
+draw_text(16, 16, "Speed: " + string(global.speed_level) + "/" + string(global.win_speed_level) + "               Press 'R' to restart");
 
 if (global.speed_level > global.win_speed_level) {
 	draw_set_halign(fa_center);

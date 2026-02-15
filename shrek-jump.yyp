@@ -22,8 +22,10 @@
   },
   "name":"shrek-jump",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"oBridge","path":"objects/oBridge/oBridge.yy",},},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},
+    {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
     {"id":{"name":"oGrass","path":"objects/oGrass/oGrass.yy",},},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},

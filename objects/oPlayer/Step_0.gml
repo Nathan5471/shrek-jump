@@ -2,6 +2,10 @@ x_speed = 0;
 y_speed = 0;
 walk_speed = 1;
 
+if (not instance_exists(oCoin)) {
+	room_restart()
+}
+
 x_speed = 0;
 y_speed += .75;
 
@@ -21,9 +25,6 @@ if (place_meeting(x, y + 1, oSolid)) {
 	}
 }
 
-if (place_meeting(x, y, oSpikes)) {
-	room_restart()
-}
 if (y > room_height or y < 0 or x > room_width or x < 0) {
 	room_restart()
 }
